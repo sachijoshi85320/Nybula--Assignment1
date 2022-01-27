@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="brand-name">Learning Platform</div>
+      <div class="nav-items">
+        <div class="nav-item">About</div>
+        <div class="nav-item">Contact</div>
+      </div>
+    </nav>
+
+    <!-- Login Form Container -->
+
+    <section class="container">
+      <div class="wrapper">
+        <div class="title-text">
+          <div class="title login">Student Login</div>
+          <div class="title signup">Teacher Login</div>
+        </div>
+        <div class="form-container">
+          <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked />
+            <input type="radio" name="slide" id="signup" />
+            <label for="login" class="slide login">Student</label>
+            <label for="signup" class="slide signup">Teacher</label>
+            <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+            <!-- Student Form -->
+            <form action="#" class="login">
+              <div class="field">
+                <input
+                  type="text"
+                  id="studentEmail"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="password"
+                  id="studentPassword"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="pass-link">
+                <a href="#">Forgot password?</a>
+              </div>
+              <div class="login-div">
+                <button class="login-a-link" id="studentLoginBtn">
+                  Student Login
+                </button>
+                <a
+                  id="studentLoginLink"
+                  style="display: none"
+                  href="studentDashboard.html"
+                >
+                </a>
+              </div>
+            </form>
+
+            <!-- Teacher Form -->
+
+            <form action="#" class="login">
+              <div class="field">
+                <input
+                  type="text"
+                  id="teacherEmail"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="password"
+                  id="teacherPassword"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="pass-link">
+                <a href="#">Forgot password?</a>
+              </div>
+              <div class="login-div">
+                <button class="login-a-link" id="teacherLoginBtn">
+                  Teacher Login
+                </button>
+                <a
+                  id="teacherLoginLink"
+                  style="display: none"
+                  href="teacherDashboard.html"
+                >
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

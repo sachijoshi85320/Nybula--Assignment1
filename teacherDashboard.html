@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="teacherDashboard.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="brand-name">Learning Platform</div>
+      <div class="nav-items">
+        <!-- <div class="nav-item">Profile</div> -->
+        <div class="nav-item">
+          <a class="logout" href="index.html">Log out</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Join / Create Room Container -->
+    <div class="container">
+      <div class="heading-div">
+        <h1>Courses</h1>
+        <button class="add-course-btn">Add Course</button>
+      </div>
+      <hr />
+
+      <table class="course-table">
+        <thead>
+          <td>Sr. No.</td>
+          <td>Course Name</td>
+          <td>Create Quiz</td>
+          <td>Edit</td>
+          <td>Delete</td>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td>Course 1</td>
+          <td>
+            <a href="quiz.html">
+              <button style="background-color: magenta" class="add-course-btn">
+                Create Quiz
+              </button>
+            </a>
+          </td>
+          <td>
+            <button>
+            <a href="to-doo.html">
+              <button style="background-color: blue" class="add-course-btn">
+                Edit Course
+              </button>
+          </td>
+          <td>
+            <button style="background-color: red" class="add-course-btn">
+              Delete Course
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Course 2</td>
+          <td>
+            <a href="quiz.html">
+              <button style="background-color: magenta" class="add-course-btn">
+                Create Quiz
+              </button>
+            </a>
+          </td>
+          <td>
+              <a href="to-doo.html">
+                <button style="background-color: blue" class="add-course-btn">
+                  Edit Course
+                </button>
+              </a>
+            </button>
+          </td>
+          <td>
+            <button style="background-color: red" class="add-course-btn">
+              Delete Course
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Course 3</td>
+          <td>
+            <a href="quiz.html">
+              <button style="background-color: magenta" class="add-course-btn">
+                Create Quiz
+              </button>
+            </a>
+          </td>
+          <td>
+            <button>
+              <a href="to-doo.html">
+                <button style="background-color: blue" class="add-course-btn">
+                  Edit Course
+                </button>
+          </td>
+          <td>
+            <button style="background-color: red" class="add-course-btn">
+              Delete Course
+            </button>
+          </td>
+        </tr>
+      </table>
+      <!-- Course Table -->
+    </div>
+
+    <script src="teacherDashboard.js"></script>
+  </body>
+</html>

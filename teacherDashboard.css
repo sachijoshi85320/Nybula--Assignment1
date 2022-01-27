@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+
+.nav {
+  background-color: transparent;
+  box-shadow: 1px 1px 10px 1px white;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 25px 10%;
+}
+
+.brand-name {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logout {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  /* max-width: 390px; */
+  background: #fff;
+  padding: 50px 100px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.heading-div {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.add-course-btn {
+  padding: 1px 10px;
+  height: 35px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.add-course-btn:hover {
+  transform: scale(1.1);
+}
+
+.course-table {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.course-table thead td {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(144, 144, 144);
+}
+
+.course-table td {
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.add-question-div {
+  width: 40%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-bottom: 2px solid gray;
+}
+
+.add-btn {
+  font-size: 16px;
+  width: 80px;
+  background-color: #fa4299;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.right-container {
+  padding: 50px 100px;
+  width: 60%;
+}
+
+.right-container div {
+  margin-bottom: 20px;
+}

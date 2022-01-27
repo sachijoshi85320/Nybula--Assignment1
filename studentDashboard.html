@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="./studentDashboard.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="brand-name">Student Dashboard</div>
+      <div class="nav-items">
+        <div class="nav-item">
+          <a class="logout" id="profile" href="#">Profile</a>
+        </div>
+        <div class="nav-item">
+          <a class="logout" href="../index.html">Log out</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+      <div class="main-container">
+        <div class="heading-div">
+          <h1>Courses</h1>
+          <p>Total Points: 140</p>
+        </div>
+        <hr />
+
+        <table class="course-table">
+          <thead>
+            <td>Sr. No.</td>
+            <td>Course Name</td>
+            <td>Quiz</td>
+            <td>Points Earned</td>
+            <td></td>
+          </thead>
+          <tr>
+            <td>1</td>
+            <td>Course 1</td>
+            <td>Completed</td>
+            <td>80</td>
+            <td>
+              <a href="./CourseView/courseView.html">
+                <button class="view-btn">View</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Course 2</td>
+            <td>
+              <a href="./takeQuiz.html">
+                <button class="view-btn">Take Quiz</button>
+              </a>
+            </td>
+            <td>-</td>
+            <td>
+              <a href="./CourseView/courseView.html">
+                <button disabled class="view-btn">View</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Course 3</td>
+            <td>
+              <a href="./takeQuiz.html">
+                <button class="view-btn">Take Quiz</button>
+              </a>
+            </td>
+            <td>-</td>
+            <td>
+              <a href="./CourseView/courseView.html">
+                <button disabled class="view-btn">View</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Course 4</td>
+            <td>Completed</td>
+            <td>60</td>
+            <td>
+              <a href="./CourseView/courseView.html">
+                <button class="view-btn">View</button>
+              </a>
+            </td>
+          </tr>
+        </table>
+        <!-- Course Table -->
+      </div>
+
+      <div class="profile-container">
+        <div class="myAccount">
+          <h1>Profile</h1>
+          <hr />
+          <div class="details">
+            <div class="sub-details">
+              <p><span>Name: </span>Student Name</p>
+              <p><span>Sap Id: </span>1834739874</p>
+              <p><span>Email Id: </span>student@gmail.com</p>
+              <p><span>Mobile No: </span>9896057932</p>
+              <p><span>Password: </span>*********</p>
+              <button class="view-btn">Edit</button>
+            </div>
+            <div class="profile-photo">
+              <img src="pp.jpg" alt="" />
+              <button class="view-btn">Change</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./studentDashboard.js"></script>
+  </body>
+</html>
